@@ -14,7 +14,7 @@ class Game(context: Context) : SurfaceView(context), Runnable {
     private val bird: Bird = Bird(context)
     private val pillars: MutableList<Pillar> = mutableListOf()
     private var score = 0
-    private val paint = Paint() // If you plan to use this, otherwise consider removing it
+    private val paint = Paint()
     private val surfaceHolder: SurfaceHolder = holder
 
     init {
